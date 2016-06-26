@@ -1,6 +1,5 @@
----
 ## Getting and Cleaning Data - Course Project ##
----
+
 ### Introduction ###
 
 This repository contains the required Course Project submissions for the Coursera course Getting and Cleaning Data
@@ -27,7 +26,7 @@ Each of an observation's variables is the average of multiple values provided wi
 *	'CodeBook.md': This file
 *	'README.md': Description file for the GitHub repository.
 
-Source data files (see *About the source data* for details):
+Source data files (see [About the source data](#About the source data) for details):
 * 'UCI HAR Dataset/features_info.txt': Shows information about the variables used on the feature vector.
 * 'UCI HAR Dataset/features.txt': List of all features.
 * 'UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
@@ -38,6 +37,7 @@ Source data files (see *About the source data* for details):
 
 ### The analysis ###
 The *run_Analysis.R* R script accomplishes the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
@@ -45,6 +45,7 @@ The *run_Analysis.R* R script accomplishes the following:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The script performs the following steps:
+
 1. Loads the datasets' column names from the features.txt file into the *colnames* dataframe
 2. Loads the test dataset from X_test.txt file into the *testset* dataframe, using information from *colnames* to label the columns.
 3. Loads the train dataset from X_train.txt file into the *trainset* dataframe, using information from *colnames* to label the columns.
