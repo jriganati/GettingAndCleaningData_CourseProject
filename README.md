@@ -19,6 +19,8 @@ A full description is available at the site where the data was obtained:
 The data were analyzed with R version 3.3.0 (2016-05-03).  
 The R script created to perform the analysis is called *run_analysis.R*.  This file can be run in R as long as the *UCI HAR Dataset* directory and its files are contained in the working directory.
 
-The final result of the analysis is a dataframe called *meanValues*, which was output to the *meanValues.txt* file.
+The final result of the analysis is a dataframe called *meanValues*.
+
+The resulting contents of the *meanValues* dataframe can be found in the *meanValues.txt* file.
 
 See *CodeBook.md* for details about the *meanValues* dataframe.
