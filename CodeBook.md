@@ -26,7 +26,7 @@ Each of an observation's variables is the average of multiple values provided wi
 *	'CodeBook.md': This file
 *	'README.md': Description file for the GitHub repository.
 
-Source data files (see [About the source data](#About the source data) for details):
+Source data files (see [About the source data](#about-the-source-data) for details):
 * 'UCI HAR Dataset/features_info.txt': Shows information about the variables used on the feature vector.
 * 'UCI HAR Dataset/features.txt': List of all features.
 * 'UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
