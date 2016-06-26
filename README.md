@@ -17,7 +17,8 @@ A full description is available at the site where the data was obtained:
 
 ### Analysis Script
 The data were analyzed with R version 3.3.0 (2016-05-03).  
-The R script created to perform the analysis is called *run_analysis.R*.
-The final result of the analysis is a dataframe called *meanValues*, which has output to the *meanValues.txt* file.
+The R script created to perform the analysis is called *run_analysis.R* .
+
+The final result of the analysis is a dataframe called *meanValues*, which was output to the *meanValues.txt* file.
 
 See *CodeBook.md* for details about the *meanValues* dataframe.
